@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-background {
+    background-color: black;
+    width: 100vw;
+    background-size: cover;
+}
+
+.head-card {
+    background-color: #5b615b;
+    background-size: cover;
+    height: 15vh;
+    width: 100vw;
+    padding: 5px;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-style: normal;
+    color: #d4ff33;
+    margin: 30px;
+    font-size: 60px;
+}
+
+.background-color-card2 {
+    background-color: black;
+    height: 325vh;
+    width: 100vw;
+}
+
+.background-color-card2-in {
+    padding: 80px;
+}
+
+.heading2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.para2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.movie-card-container1 {
+    padding: 15px;
+}
+
+.movie-card-container {
+    background-color: black;
+    height: 35vh;
+    width: 15vw;
+    border-radius: 5px;
+
+}
+
+.movie-imag {
+    background-size: cover;
+    height: 35vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.movie-name {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.year {
+    background-color: #5b615b;
+    color: #d4ff33;
+    height: 50px;
+    width: 100px;
+}
+
+.card-last {
+    margin-left: 65px;
+}
+
+.copy-right {
+    background-color: #5b615b;
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #5b615b;
+    min-height: 100px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 30vh;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 55px 90px;
+    flex-wrap: wrap;
+
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 40px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
